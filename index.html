@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bookshelf Apps</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bookshelf Apps</h1>
+      <form id="search-book">
+        <input id="search-book-title" type="text" placeholder="Cari Judul Buku" />
+        <button id="search-book-submit" type="submit">Cari</button>
+      </form>
+    </header>
+
+    <main>
+      <section>
+        <h2>Masukkan Buku Baru</h2>
+        <form id="input-book">
+          <div class="input">
+            <label for="input-book-title">Judul</label>
+            <input type="text" id="input-book-title" name="input-book-title" required />
+          </div>
+          <div class="input">
+            <label for="input-book-author">Penulis</label>
+            <input type="text" id="input-book-author" name="input-book-author" required />
+          </div>
+          <div class="input">
+            <label for="input-book-year">Tahun</label>
+            <input type="number" id="input-book-year" name="input-book-year" required />
+          </div>
+          <div class="input-checkbox">
+            <label for="is-completed-book">Selesai Dibaca</label>
+            <input type="checkbox" id="is-completed-book" />
+          </div>
+          <button type="submit" id="input-book-submit">Masukkan Buku</button>
+        </form>
+      </section>
+      <section>
+        <h2>Belum Selesai Dibaca</h2>
+        <div class="list-item" id="books"></div>
+      </section>
+      <section>
+        <h2>Selesai Dibaca</h2>
+        <div class="list-item" id="completed-books"></div>
+      </section>
+    </main>
+
+    <div class="edit-book-container">
+      <h2>Ubah Buku</h2>
+      <form id="edit-book">
+        <div class="input">
+          <label for="edit-book-title">Judul</label>
+          <input type="text" id="edit-book-title" name="edit-book-title" required />
+        </div>
+        <div class="input">
+          <label for="edit-book-author">Penulis</label>
+          <input type="text" id="edit-book-author" name="edit-book-author" required />
+        </div>
+        <div class="input">
+          <label for="edit-book-year">Tahun</label>
+          <input type="number" id="edit-book-year" name="edit-book-year" required />
+        </div>
+        <button type="submit" id="edit-book-submit">Ubah Buku</button>
+      </form>
+    </div>
+    <div class="blur-body"></div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
