@@ -15,6 +15,14 @@ header h1 span {
   text-transform: uppercase;
   color: white;
 }
+header form {
+  gap: 1em;
+  display: flex;
+}
+header #search-book-title {
+  background-color: #242d3e;
+  color: white;
+}
 
 body {
   background-color: whitesmoke;
@@ -33,6 +41,8 @@ main .unread #books, main .read #completed-books {
 main section h2 {
   font-size: 2rem;
   font-weight: normal;
+  background-color: #242d3e;
+  border-radius: 2em;
 }
 main section h2::after {
   content: "";

@@ -16,6 +16,15 @@ header{
             color:white;
         }
     }
+
+    form{
+        gap: 1em;
+        display: flex;
+    }
+    #search-book-title{
+        background-color: #242d3e;
+        color: white;
+    }
 }
 
 body{
@@ -36,6 +45,8 @@ main{
     section h2{
         font-size: 2rem;
         font-weight: normal;
+        background-color: #242d3e;
+        border-radius: 2em;
         &::after{
             content: '';
             width: 100%;
@@ -49,3 +60,5 @@ main{
 label{
     color: #ced0d5;
 }
+
+
