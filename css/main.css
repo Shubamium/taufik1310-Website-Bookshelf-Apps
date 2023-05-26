@@ -22,8 +22,21 @@ body {
 
 main {
   background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1em;
 }
 main .unread #books, main .read #completed-books {
   overflow-x: hidden;
   padding: 0 1em;
+}
+main section h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+main section h2::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: white;
 }

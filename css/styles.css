@@ -59,14 +59,14 @@ main {
   background: var(--secondary-color);
   height: 50vh;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   align-items: flex-start;
   padding: 40px;
 }
 
 main section {
-  width: 32%;
+  /* width: 32%; */
   background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 8px;
@@ -74,7 +74,7 @@ main section {
 }
 
 main section:nth-child(1) {
-  width: 35%;
+  /* width: 35%; */
 }
 
 main section h2 {
@@ -288,6 +288,7 @@ main section h2 {
   #search-book {
     width: 80%;
   }
+
 }
 
 @media (max-width: 512px) {
