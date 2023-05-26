@@ -38,6 +38,13 @@ main .unread #books, main .read #completed-books {
   overflow-x: hidden;
   padding: 0 1em;
 }
+main section {
+  height: 80vh;
+}
+main section .list-item {
+  max-height: 70vh;
+  overflow-y: auto;
+}
 main section h2 {
   font-size: 2rem;
   font-weight: normal;
