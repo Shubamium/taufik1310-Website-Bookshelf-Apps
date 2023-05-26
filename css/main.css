@@ -10,9 +10,10 @@ header h1 {
 }
 header h1 span {
   background-color: #252f40;
-  padding: 0.2em;
-  font-weight: 900;
+  padding: 0.4em;
+  font-weight: 700;
   text-transform: uppercase;
+  color: white;
 }
 
 body {
@@ -21,4 +22,8 @@ body {
 
 main {
   background-color: transparent;
+}
+main .unread #books, main .read #completed-books {
+  overflow-x: hidden;
+  padding: 0 1em;
 }
