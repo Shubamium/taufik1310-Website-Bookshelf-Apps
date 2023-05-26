@@ -54,3 +54,11 @@ main section h2::after {
 label {
   color: #ced0d5;
 }
+
+input::-moz-placeholder {
+  opacity: 0.06;
+}
+
+input::placeholder {
+  opacity: 0.06;
+}

@@ -11,7 +11,7 @@ header{
         span{
             background-color: #252f40;
             padding: .4em;
-            font-weight: 700;
+               font-weight: 700;
             text-transform: uppercase; 
             color:white;
         }
@@ -62,3 +62,6 @@ label{
 }
 
 
+input::placeholder{
+    opacity: .06;
+}
