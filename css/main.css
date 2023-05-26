@@ -1,0 +1,24 @@
+header {
+  box-shadow: 0px 0px 9px 5px rgba(105, 105, 105, 0.64);
+}
+header h1 {
+  color: rgb(192, 192, 192);
+  font-size: 3.4rem;
+  font-weight: 100;
+  letter-spacing: -4px;
+  line-height: 90%;
+}
+header h1 span {
+  background-color: #252f40;
+  padding: 0.2em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  background-color: transparent;
+}
