@@ -104,14 +104,17 @@ main section h2 {
 
 #input-book input[type="text"],
 #input-book input[type="number"] {
-  background: var(--secondary-color);
-  border-radius: 8px;
-  padding: 5px 0 5px 10px;
-  outline: none;
+  /* background: var(--secondary-color); */
+  background-color: transparent;
   border: none;
+  border-bottom: 2px solid rgb(147, 145, 145);
+  padding: .2em;
+  outline: none;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  color: white;
+  font-size: 1.2rem;
 }
 
 #input-book-submit {

@@ -40,3 +40,7 @@ main section h2::after {
   height: 2px;
   background-color: white;
 }
+
+label {
+  color: #ced0d5;
+}
